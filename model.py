@@ -63,12 +63,6 @@ class EfficientNet(nn.Module):
         x = F.normalize(x)
         return x
 
-class swinv2(nn.Module):
-    def __init__(self):
-        super().__init__()
-        self.base = timm.create_model('swinv2_base_window12to16_192to256_22kft1k', pretrained=True)
-        self.norm = L2N() 
-
 
 if __name__ == '__main__':
     model = Hybrid_ViT()

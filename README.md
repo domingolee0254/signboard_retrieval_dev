@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Near-duplicated Image Retrieval
 Dataset: simulated dataset
 
@@ -12,6 +11,3 @@ Dataset: simulated dataset
 ```python extract_simulated.py```
 2. Get average rank
 ```python get_rank_simulated.py```
-=======
-# ganpan_retrieval-
->>>>>>> ea6ebb11d946bde0ddd1e40d6c55172620246866
