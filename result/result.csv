@@ -1,0 +1,9 @@
+224,original,ssl_resnet50,fc_layer,top@1,0.58,6.36,1000
+224,original,ssl_resnet50,with_pooling_layer,top@1,0.79,3.25,2048
+224,original,ssl_resnet50,without_pooling_layer,top@1,0.71,4.44,100352
+224,original,ssl_resnet50,fc_layer,top@10,0.6544563492063493,6.36,1000
+224,original,ssl_resnet50,with_pooling_layer,top@10,0.8247500000000002,3.25,2048
+224,original,ssl_resnet50,without_pooling_layer,top@10,0.7624166666666667,4.44,100352
+224,original,resnetv2_152x4_bitm_in21k,fc_layer,top@1,0.57,5.42,21843
+224,original,resnetv2_152x4_bitm_in21k,with_pooling_layer,top@1,0.75,2.88,8192
+224,original,resnetv2_152x4_bitm_in21k,without_pooling_layer,top@1,0.8,3.22,401408
